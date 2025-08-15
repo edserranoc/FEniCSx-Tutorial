@@ -17,7 +17,7 @@ The repository will include:
 - [x] Install FEniCSx, mshr, Paraview
 - [ ] Poisson Equation (Basic Example - Complex Example)
 
-**Comments:** The easiest way to install FEniCSx in a virtual enviroment is through Anaconda. Paraview offers high quality images for PDEs visualization.
+**Comments:** The easiest way to install FEniCSx in a virtual environment is through Anaconda. ParaView offers high-quality images for PDE visualization.
 
 <div align="center">
 <img src="./poisson_equation_2/out_poisson/simulation.png" width="450"/> 
