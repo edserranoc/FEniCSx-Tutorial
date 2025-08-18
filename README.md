@@ -20,7 +20,7 @@ The repository will include:
 **Comments:** The easiest way to install FEniCSx in a virtual environment is through Anaconda. ParaView offers high-quality images for PDE visualization.
 
 <div align="center">
-<img src="./poisson_equation_2/out_poisson/simulation.png" width="450"/> 
+<img src="./PoissonEquation_Part2/out_poisson/simulation.png" width="450"/> 
 </div>
 
 📚 **Resources:**
