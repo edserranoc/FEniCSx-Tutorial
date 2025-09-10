@@ -15,13 +15,18 @@ The repository will include:
 **Goal:** Get familiar with FEniCSx basics and the Python API.
 
 - [x] Install FEniCSx, mshr, Paraview
-- [ ] Poisson Equation (Basic Example - Complex Example)
+- [x] Poisson Equation (Basic Example - Complex Example)
+- [x] Deflection of a membrane (Unit Circle)
+
+<div align="center">
+  <img src="./PoissonEquation_Part2/out_poisson/simulation.png" width="385"/>
+  <img src="./MembraneDeflection/results/membrane.png" width="350"/>
+</div>
+
+
 
 **Comments:** The easiest way to install FEniCSx in a virtual environment is through Anaconda. ParaView offers high-quality images for PDE visualization.
 
-<div align="center">
-<img src="./PoissonEquation_Part2/out_poisson/simulation.png" width="450"/> 
-</div>
 
 📚 **Resources:**
 

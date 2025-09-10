@@ -149,7 +149,9 @@ problem = LinearProblem(
     a,
     L,
     bcs=[bc],
-    petsc_options={"ksp_type": "preonly", "pc_type": "lu", "ksp_error_if_not_converged": True},
+    petsc_options={"ksp_type": "preonly", 
+                   "pc_type": "lu", 
+                   "ksp_error_if_not_converged": True},
 )
 uh = problem.solve()
 assert isinstance(uh, fem.Function)
@@ -165,7 +167,7 @@ with io.XDMFFile(msh.comm, "out_poisson/poisson.xdmf", "w") as file:
 # -
 
 # and displayed using [pyvista](https://docs.pyvista.org/).
-
+"""
 # +
 try:
     import pyvista
@@ -190,3 +192,4 @@ try:
 except ModuleNotFoundError:
     print("'pyvista' is required to visualise the solution.")
     print("To install pyvista with pip: 'python3 -m pip install pyvista'.")
+"""
